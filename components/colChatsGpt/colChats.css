@@ -1,0 +1,130 @@
+.threeColChats {
+    width: 100%;
+    margin-top: 50px;
+    padding: 0 40px;
+}
+
+.btnLike svg {
+    width: 15px;
+    height: auto;
+}
+
+.AllMesages {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.question {
+    margin-top: 40px;
+}
+
+.messages {
+    padding-bottom: 60px;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.iconAvatar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.iconAvatar img {
+    width: 20px;
+    height: 20px;
+}
+
+.allBtn {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-left: 30px;
+}
+
+.like  {
+    margin-right: 10px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.zapros {
+    padding-left: 30px;
+    text-align: start;
+}
+
+.AllMesages {
+    position: relative;
+}
+
+.AllMesages input[type="submit"] {
+    position: absolute;
+    right: 0;
+    background: url('../images/imgIcon/send.svg') no-repeat;
+    opacity: .7;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+#formChatGpt {
+    position: relative;
+    bottom: 10px;
+    padding-top: 30px;
+}
+
+#formChatGpt input[type="text"] {
+    padding: 0 10px;
+    height: 42px;
+    border-radius: 20px;
+    overflow-y: hidden;
+    border: none;
+    width: 77%;
+}
+
+.input-area90 {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.input-area90 input[type="submit"] {
+    position: absolute;
+    right: 0;
+    background: url('../images/imgIcon/send.svg') no-repeat;
+    opacity: .7;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.input-area90 input[type="submit"]:hover {
+    opacity: 1;
+}
+
+.nameChats {
+    padding: 20px;
+}

@@ -1,0 +1,95 @@
+.side {
+    width: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #f9f9f9;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.nameSidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 10px 10px 10px 15px;
+    position: fixed;
+    top: 0;
+    width: 175px;
+    transition: .5s all ease;
+    border-radius: 10px;
+}
+.nameSidebar:hover {
+    background: #e0e0e0;
+}
+.signIn {
+    display: flex;
+    align-items: center;
+    transition: .5s all ease;
+    padding: 5px;
+    border-radius: 5px;
+}
+.signIn:hover {
+    background: #cccccc;
+}
+
+.sessions {
+    margin-top: 70px;
+    padding: 0 25px;
+    height: 70vh;
+    overflow: hidden scroll;
+    text-align: start;
+}
+
+.nameList {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #696969;
+}
+
+.linkSession {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.linkSession a {
+    width: 100%;
+}
+
+.changeNameLink {
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .5s all ease;
+}
+
+.changeNameLink:hover {
+    opacity: .7;
+    background: #fff;
+}
+
+.linkSession:hover {
+    background: #e8e8e8;
+}
+
+
+.closeModal {
+    position: absolute;
+    top: -30px;
+    right: -20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+}

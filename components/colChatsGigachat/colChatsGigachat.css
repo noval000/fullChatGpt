@@ -1,0 +1,44 @@
+#formChatGigachat {
+    position: relative;
+    bottom: 10px;
+    padding-top: 30px;
+}
+
+#formChatGigachat input[type="text"] {
+    padding: 0 10px;
+    height: 42px;
+    border-radius: 20px;
+    overflow-y: hidden;
+    border: none;
+    width: 77%;
+}
+
+.input-area90 {
+    background-color: #fff;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.input-area90 input[type="submit"] {
+    position: absolute;
+    right: 0;
+    background: url('../images/imgIcon/send.svg') no-repeat;
+    opacity: .7;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: .5s all ease;
+}
+
+.input-area90 input[type="submit"]:hover {
+    opacity: 1;
+}

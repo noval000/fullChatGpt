@@ -1,0 +1,7 @@
+.chat-container {
+    display: flex;
+    margin: auto auto;
+    width: calc(100% - 220px);
+    float: right;
+    justify-content: space-between;
+}
